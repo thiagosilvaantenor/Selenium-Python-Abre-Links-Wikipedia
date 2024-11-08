@@ -1,6 +1,7 @@
 #!./my-venv/bin/python3
 # WikipediaPythonLink.py
 # Utiliza do selenium para abrir o Chrome, no artigo do Linux no Wikipedia e entra em todos os links
+# TO-DO: Para abrir navegador no terminal abrir em SANDBOX
 from selenium import webdriver;
 from selenium.webdriver.common.keys import Keys;
 from selenium.webdriver.common.by import By;
